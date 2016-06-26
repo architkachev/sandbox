@@ -77,5 +77,10 @@ sums2 = precomputeSums(matrix)
 #
 # print(matrixRegionSum2(matrix, (1, 1), (2, 2), sums))
 
-print(sums)
-print(sums2)
+# print(sums)
+# print(sums2)
+
+
+result = [[0]*len(matrix[0])]*len(matrix)
+print result
+

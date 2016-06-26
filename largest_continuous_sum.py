@@ -16,7 +16,7 @@ def sumArray(arr):
     return res
 
 
-arr = [1, 2, 3, -6, 7, -5, 2, 1, 3]
+arr = [1, -6, 7, -5, 2, 1, 3]
 
 print(largestContinuousSum(arr))
 print(max(sumArray(arr)))
